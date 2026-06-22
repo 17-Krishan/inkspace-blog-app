@@ -1,16 +1,35 @@
-# React + Vite
+# InkSpace v1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InkSpace is a full-stack blogging platform built with React, Redux Toolkit, Appwrite, Tailwind CSS, React Hook Form, and TinyMCE.
 
-Currently, two official plugins are available:
+Users can create accounts, log in, write blog posts with a rich text editor, upload featured images, edit or delete their posts, and publish content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* User Authentication (Signup/Login/Logout)
+* Protected Routes
+* Create, Edit, and Delete Posts
+* Rich Text Editor (TinyMCE)
+* Featured Image Uploads
+* Draft and Published Posts
+* Redux Toolkit State Management
+* React Hook Form Validation
+* Appwrite Backend Integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* React Router DOM
+* Redux Toolkit
+* Tailwind CSS
+* React Hook Form
+* TinyMCE
+
+### Backend
+
+* Appwrite Authentication
+* Appwrite Database
+* Appwrite Storage
